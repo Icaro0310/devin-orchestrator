@@ -2,11 +2,11 @@
 
 ## What this tool does with your data
 
-- **No telemetry.** This project sends nothing anywhere.
-- **No network by default.** All processing is local unless a command
-  explicitly says otherwise (and it will say so in `--help`).
-- **Data stays on your machine.** Files it reads and writes are documented
-  in the README.
+- **No telemetry.** This project sends nothing to analytics or tracking.
+- **Local by default.** Specs and the registry live in local files
+  (default registry path in `src/devin_orchestrator/registry.py`;
+  overridable via `--registry` and `--spec-file`). No data leaves your
+  machine unless you point a command at a remote target.
 
 ## Sensitive data handling
 
