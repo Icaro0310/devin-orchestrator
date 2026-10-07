@@ -85,12 +85,15 @@ author — this project ships as `devin-fanout` while the CLI stays
 
 Python ≥ 3.10 required; install with `uv` (recommended) or `pipx`.
 
-Install the CLI from this repository:
+Install the CLI:
 
 ```bash
 uv tool install devin-fanout
+```
 
-# or with pipx (alternative)
+or with `pipx` (alternative):
+
+```bash
 pipx install devin-fanout
 ```
 
