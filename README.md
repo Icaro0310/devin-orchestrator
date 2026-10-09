@@ -1,5 +1,30 @@
 <div align="center">
 
+# devin-orchestrator — MOVED
+
+**This repository was absorbed into the
+[`devin-control`](https://github.com/Icaro0310/devin-control) monorepo.**
+
+The code now lives at `packages/orchestrator/`. `pip install devin-fanout` / `uv tool install devin-fanout` still installs the same package, now released from devin-control.
+
+```bash
+# development moved
+git clone https://github.com/Icaro0310/devin-control
+cd devin-control/packages/orchestrator
+```
+
+The repository is archived; open issues and PRs belong to devin-control.
+History remains readable here for reference.
+
+</div>
+
+---
+
+<details>
+<summary>Original README (pre-archive)</summary>
+
+<div align="center">
+
 <img src="assets/banner.svg" alt="devin-orchestrator" width="100%"/>
 
 <a href="https://github.com/Icaro0310/devin-orchestrator/actions/workflows/ci.yml"><img src="https://github.com/Icaro0310/devin-orchestrator/actions/workflows/ci.yml/badge.svg" alt="ci"/></a>
@@ -244,3 +269,5 @@ and Linux are in Usage above.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+</details>
